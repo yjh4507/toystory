@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="css/toystorymain.css">
   <link rel="stylesheet" href="css/toystory_reset.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/7eaaacde9b.js" crossorigin="anonymous"></script>
 
+  <script src="js/mainnav.js"></script>
 
 </head>
 
@@ -21,18 +23,73 @@
   <header>
 
     <div id="header_top">
-      <img src="img/disney_logo1.png" alt="logo">
-      <a href="#">
-        <i class="fas fa-bars"></i>
-      </a>
+      <img class="disneylogo" src="img/disney_logo1.png" alt="logo">
+      <input type="checkbox" id="menuicon">
+      <label for="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="overlay">
+        <nav class="menu">
+          <ul>
+            <li><a href="#">출연/제작</a></li>
+            <li><a href="#">영화구매</a></li>
+            <li><a href="#">동영상</a></li>
+            <li><a href="#">갤러리</a></li>
+            <a href="#"><img src="img/disney+logo.png" alt="logo"></a>
+          </ul>
+        </nav>
+      </div>
     </div>
-    
+
     <img class="logo" src="img/logo.png" alt="logo">
 
   </header>
 
   <mian>
     <section id="top">
+      <div class="top_title">
+        <h1>Toy story series</h1>
+        <img src="img/buzz1.png" alt="buzz">
+        <img src="img/woody1.png" alt="woody">
+        <div class="logobtn">
+          <img src="img/logo1.png" alt="button">
+          <img src="img/logo2.png" alt="button">
+          <img src="img/logo3.png" alt="button">
+          <img src="img/logo4.png" alt="button">
+        </div>
+      </div>
+
+      <div class="top_box">
+        <div class="top_box_1">
+          <img src="img/poster1.jfif" alt="poster">
+          <h2>토이스토리 <br>
+            <span>Toy Story, 1995</span>
+          </h2>
+          <div class="top_box_1text">
+            <p>개봉: 1995.12.30<br>
+              장르: 애니메이션/어드벤쳐/판타지<br>
+              국가: 미국<br>
+              등급: 전체관람가<br>
+            </p>
+            <p>러닝타임: 81분<br>
+              평점: ★ 9.1<br>
+              누적관객: 1,120명</p>
+          </div>
+        </div>
+
+        <div class="top_box_2">
+          <img src="img/series1.png" alt="img">
+          <p>카우보이 인형 우디는 주인인 앤디의 가장 사랑받는 장난감이다.<br>
+            그러나 어느날 버즈라는 새로운 장난감이 등장한다.<br><br>
+            버즈는 최신형 장난감으로 레이저 빔 등의 첨단장비를 갖추고 있으나<br>
+            자신이 장난감임을 인식하지 못하고 자신이 갖춘 장비로 하늘을 날 수 있다고 믿고 있다.<br>
+            버즈의 허상을 상처받지 않고 인식시켜 주려는 우디와 친구들.<br><br>
+            그러나 뜻밖의 사고가 일어난다. 옆집 개에게 버즈가 납치당하고<br>
+            이런 버즈를 구하기 위해 우디와 친구들은 구조대를 조직해 버즈를 구하러 가는데...</p>
+        </div>
+      </div>
 
     </section>
 

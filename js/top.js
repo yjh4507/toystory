@@ -1,6 +1,6 @@
 $ (function(){
     $('#series1').fadeIn();
-    $('#btn1').hover(function(){
+    $('#btn1').click(function(){
         $('button').removeClass("active");
         $(this).addClass("active");
         $('#series1').fadeIn();
@@ -8,7 +8,7 @@ $ (function(){
         $('#series3').hide();
         $('#series4').hide(); 
     });
-    $('#btn2').mouseover(function(){
+    $('#btn2').click(function(){
         $('button').removeClass("active");
         $(this).addClass("active");
         $('#series1').hide();
@@ -16,7 +16,7 @@ $ (function(){
         $('#series3').hide();
         $('#series4').hide(); 
     });
-    $('#btn3').mouseover(function(){
+    $('#btn3').click(function(){
         $('button').removeClass("active");
         $(this).addClass("active");
         $('#series1').hide();
@@ -24,7 +24,7 @@ $ (function(){
         $('#series3').fadeIn();
         $('#series4').hide(); 
     });
-    $('#btn4').mouseover(function(){
+    $('#btn4').click(function(){
         $('button').removeClass("active");
         $(this).addClass("active");
         $('#series1').hide();

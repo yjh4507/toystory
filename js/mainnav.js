@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('#menuicon').on('change',function(){
+        if($('#menuicon').is(':checked')){
+            $('.overlay').css("visibility","visible")
+        }else{
+            $('.overlay').css("visibility","hidden");
+        }
+ });
+});

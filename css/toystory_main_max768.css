@@ -1,8 +1,0 @@
-@charset "UTF-8";
-@media (max-width:769px) and (min-width:1199px) {
-
-/* -----움직이는로고----- */
-  header .logo {
-    width:230px;
-  }
-}

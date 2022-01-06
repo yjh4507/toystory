@@ -96,5 +96,8 @@
   .slide {
     width:500%;
   }
+  #bottom>h1 {
+    display:none;
+  }
 
 }

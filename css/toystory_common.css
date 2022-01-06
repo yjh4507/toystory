@@ -88,7 +88,8 @@ header {
   float: left;
 }
 .menu ul img {
-  margin:3px 1em;
+  display:block;
+  margin:0 auto;
   width:80px;
   opacity:0.7;
   transition:opacity 0.2s ease;
@@ -183,7 +184,7 @@ footer span:hover {
     width:90%;
   }
   #header_top .disneylogo {
-    width:100px;
+    width:80px;
   }
   .overlay {
     width:100%;

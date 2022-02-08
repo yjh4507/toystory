@@ -20,7 +20,7 @@ header {
   width:1150px;
   height:80px;
 }
-#header_top .disneylogo {
+#header_top .PIXARlogo {
   width:150px;
 }
 
@@ -183,7 +183,7 @@ footer span:hover {
   #header_top {
     width:90%;
   }
-  #header_top .disneylogo {
+  #header_top .PIXARlogo {
     width:80px;
   }
   .overlay {
